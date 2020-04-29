@@ -1,40 +1,33 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <style type="text/css">
-    </style>
-   </head>
-  <body>
-    <pre style="word-wrap: break-word; white-space: pre-wrap;">
-  {
-    "id": "info",
-    "type": "text",
-    "text": "기본 정보",
-    "style": "h1"
-  },
-  {
-    "id": "promotion",
-    "type": "key-value",
-    "items": [
-      {
-        "key": "시작 멘트.",
-        "value": "안녕하세요. 오인준의 웹사이트 입니다."
-      },
-      {
-        "key": "Github",
-        "value": "https://bit.ly/gitoij"
-      },
-      {
-        "key": "여기는?",
-        "value": "오인준이 HTML로 만든 웹사이트."
-      }
-    ]
-  },
-  {
-    "id": "promotion-image",
-    "type": "image",
-    "url": "http://cdn.channel.io/assets/snippet/snippet-img-demo.png"
-  }
-  
-</pre>
-   </body>
-  </html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
+</head>
+<body>
+
+
+<div>
+  <iframe class="responsive-iframe" src="https://oijweb.netlify.app"></iframe>
+</div>
+
+</body>
+</html>
